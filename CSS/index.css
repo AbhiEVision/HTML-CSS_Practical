@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-header {
+    background-color: #2874f0;
+    height: 54px;
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 124px;
+    padding-right: 124px;
+    margin-right: 0px;
+}
+
+.header-div {
+    flex: 1;
+}
+
+div,p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#header-search {
+    width:100%;
+    align-self: center;
+    margin-top: 10px;
+    height: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navigation-menu{
+    display: flex;
+    width: 100%;
+    height:50px;
+    background-color: #2874f0;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.flipkart-symbol-header{
+  
+}
+
+.Plus-text-header{
+    color:yellow;
+    font-style: italic;
+    font-weight: 700;
+}
+
+.text-symbol-header{
+    position: relative;
+    font-size: 10px;
+    top: -5px;
+}
+
+.search-bar{
+    background-color: white;
+    padding: 1px;
+    margin-left: 8px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: -7px -7px 10px rgba(0,0,0,0.1), 7px 7px 10px rgba(0,0,0,0.1);
+    border-radius: 2px;
+}
+
+.search-bar input{
+    border: none;
+    padding:  8px;
+    width: 380px;
+    outline: none;
+}
+.search-bar img{
+    padding: 8px;
+}
+
+.loginBtn{
+    padding: 7px 40px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 550;
+    border: none;
+    outline: none;
+    color: #2748f0;
+}
+
+.become-a-seller,.more-btn,.cart-section {
+    margin: 0px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}

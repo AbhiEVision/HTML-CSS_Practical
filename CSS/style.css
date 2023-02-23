@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0px 0px;
     padding: 0px 0px;
 }
@@ -93,3 +93,55 @@ header {
     font-weight: 700;
     margin-top: 2px;
 }
+
+
+
+
+ */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+ 
+ nav {
+     background-color: #2874f0;
+ 
+ }
+ 
+ .text-under-symbol {
+     color: white;
+     font-style: italic;
+     font-size:12px ;
+     margin-top: -8px;
+ }
+ 
+ 
+ .plus-text {
+     color: yellow;
+ }
+ 
+ .btn-check:focus+.btn, .btn:focus {
+     outline: none;
+     box-shadow: none !important;
+ }
+ 
+ .search-bar {
+     border-radius: .1rem !important;
+     border-bottom-right-radius: 0px !important;
+     border-top-right-radius: 0px !important;
+     border: 0px solid white !important;
+ }
+ 
+ .login-button {
+     background-color: white !important;
+     color: #2874f0 !important;
+     width: 100% !important;
+     
+ }
+ 
+ .right-text-style {
+     color:white;
+     font-weight: 500;
+ }

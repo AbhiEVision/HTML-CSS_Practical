@@ -99,15 +99,16 @@ header {
 
  */
 
-
 *{
     margin: 0px;
     padding: 0px;
  }
+ body {
+    background-color: #f1f3f6 !important;
+ }
  
  nav {
      background-color: #2874f0;
- 
  }
  
  .text-under-symbol {
@@ -145,3 +146,62 @@ header {
      color:white;
      font-weight: 500;
  }
+
+ .category-section{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+ }
+
+ .list-of-category {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding:5px;
+    overflow-y: hidden;
+ }
+
+ .category-img {
+    width: 75px;
+    padding: 0px;
+ }
+
+ .category-text {
+    text-align: center;
+    font-size: 13px;
+ }
+
+ .item {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+ }
+
+
+.prev-button-div {
+    background-color:white;
+    padding: 30px 0px;
+}
+
+.next-button-div {
+    background-color: white;
+    padding: 30px 0px;
+}
+
+.prev-button {
+    justify-content: left !important;
+}
+
+.next-button {
+    justify-content: right !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    color: rgb(0, 0, 0);
+    font-weight: 2000;
+}
+
+.carosual-slider{
+    margin: 0px 9rem;
+}

@@ -205,3 +205,123 @@ header {
 .carosual-slider{
     margin: 0px 9rem;
 }
+
+.slide-item {
+    display:flex;
+    
+    flex-direction: column;
+    margin: 20px;
+}
+
+.item-image{
+    width: 180px;
+}
+
+.electronic-slider, .top-deals-slider {
+    background-color: white;
+    margin: 20px 9rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-name {
+    font-size: 15px;
+    text-align: center;
+}
+
+.item-price {
+    color: green;
+    font-size: 16px;
+    text-align: center;
+}
+
+.item-description {
+    color:gray;
+    font-size: 14px;
+    text-align: center;
+}
+
+.category-name-elctronics {
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/30c9dd7e9c28b96a.jpg?q=90");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.category-name-top-deals {
+    background-image: url("https://rukminim1.flixcart.com/fk-p-flap/278/278/image/86e6d52663901503.jpg?q=90");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.category-header-class {
+    margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.category-name-span {
+    font-size: 30px;
+    width: 150p;
+    text-align: center;
+}
+
+.view-all-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    
+}
+
+.view-all-button button {
+    background-color: #2874f0;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+.footer-in-category {
+    display: flex;
+    flex-direction: row;
+}
+
+.headre-in-category {
+    font-size: 25px;
+    margin:20px;
+    text-align: left;
+}
+
+.time-left {
+    font-size : 20px;
+    color:gray;
+}
+
+.buttons-class-in-category {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(238, 233, 233);
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    color: black;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    color: black;
+}
+
+.footer-in-website {
+    background-color: rgb(41, 35, 35);
+    color: white;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
